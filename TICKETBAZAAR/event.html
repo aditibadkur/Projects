@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI:P1</title>
+    <link rel="stylesheet" href="./event.css">
+    <script src="./events.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="fnav">
+        
+        <div class="left">
+            <a href="./home.html"><img id="logo" src="./logo.png"></a>
+            <div class="drop">
+                <input id="input" type="text" placeholder="Search for Movies,Shows and other events🔍">
+                <ul class="suggest" id="suggestions">
+                    <li id="opt">Barbie</li>
+                    <li id="opt">Sunidhi Chauhan Concert</li>
+                    <li id="opt">The Sky Gupta Show</li>
+                    <li id="opt"><a href="./event.html">Mission Impossible</a></li>
+                    <li id="opt">The Book Carnival</li>
+                    <li id="opt">Comic Con</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <select name="Location" id="loc">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coorg">Coorg</option>
+              </select>
+              <a href="./user.html"><button >Sign In</button></a>
+        </div>
+
+    </nav>
+
+    <nav class="s-nav">
+
+        <div class="s-left">
+            <p>Movies</p>
+            <p>Events</p>
+            <p>Sports</p>
+            <p>Activities</p>
+        </div>
+
+        <div class="s-right">
+            <p>Your Tickets</p>
+            <p>Gift Cards</p>
+            <p>Offers</p>
+        </div>
+
+    </nav>
+
+
+
+    <nav class="movie">
+        <div class="des">
+            
+            <p>
+                <h1>MISSION IMPOSSIBLE:DEAD RECKONING(PART I)</h1>
+                <br>
+                <h3>⭐ 9.1/10  <small>200k Votes</small></h3>
+                
+                <br>
+                <div class="rate">
+                <p><h3>Add your rating  <button>Rate Now</button></h3></p>
+                </div>
+                <br>
+                <div class="lang">
+                    <h4>2D, 2D IMAX, 3D, 4D, 4D IMAX</h4>
+                    <br>
+                    <h4>Hindi ,English, Tamil, Marathi</h4>
+                </div>
+                <br>
+                <br>
+                <button id="pop"><b>Book Tickets</b></button>
+                <div id="popov" class="popover">
+                    <ul>
+                        <li><h4>English</h4></li>
+                        <small id="mode">
+                            <a href="#nav3">2D</a> &nbsp; 2D IMAX &nbsp; 3D &nbsp; 4D &nbsp; 4D IMAX 
+                        </small>
+                        <li><h4>Hindi</h4></li>
+                        <small id="mode">
+                            2D &nbsp; 2D IMAX &nbsp; 3D &nbsp;
+                        </small>
+                        <li><h4>Tamil</h4></li>
+                        <small id="mode">
+                            2D &nbsp; 2D IMAX 
+                        </small>
+                        <li><h4>Marathi</h4></li>
+                        <small id="mode">
+                            2D &nbsp; 2D IMAX 
+                        </small>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <strong>• 2h 45m &nbsp;• Action,Adventure,Thriller &nbsp; • UA  &nbsp;• 12 Jul, 2023</strong>
+                <br>
+                <br>
+                <strong id="links">
+                    •<a href="#about"> About the Movie</a>&nbsp; •<a href="#cast"> Cast</a> &nbsp;•<a href="#crew"> Crew</a>
+                </strong>
+            </p>
+        </div>
+        
+        <div class="tra">
+            <a href="https://www.youtube.com/watch?v=avz06PDqDbM&pp=ygUcbWlzc2lvbiBpbXBvc3NpYmxlIDcgdHJhaWxlcg%3D%3D" target="_blank"><img src="./movie.png" alt="trailer"></a>
+        </div>
+
+    </nav>
+
+    <nav class="nav3" id="nav3">
+        <div class="nav3-l">
+            <input type="radio" name="date" id="d1" checked /> 
+            <label for="d1" class="date_item">
+                <div class="day">Fri</div><br>
+                <div class="date">12</div>
+            </label>
+
+            <input type="radio" name="date" id="d1" checked /> 
+            <label for="d1" class="date_item">
+                <div class="day">Sat</div><br>
+                <div class="date">13</div>
+            </label>
+
+            <input type="radio" name="date" id="d1" checked /> 
+            <label for="d1" class="date_item">
+                <div class="day">Sun</div><br>
+                <div class="date">14</div>
+            </label>
+
+            <input type="radio" name="date" id="d1" checked /> 
+            <label for="d1" class="date_item">
+                <div class="day">Mon</div><br>
+                <div class="date">15</div>
+            </label>
+
+            <input type="radio" name="date" id="d1" checked /> 
+            <label for="d1" class="date_item">
+                <div class="day">Tue</div><br>
+                <div class="date">16</div>
+            </label>
+        </div>
+
+        <div class="nav3-r">
+            <a href="#"><button id="button"><strong>Change Mode</strong></button></a>
+
+              <select id="price">
+                <option>Filter Price Range</option>
+                <option>Below & 300</option>
+                <option>300-500</option>
+                <option>Above 500</option>
+              </select>
+
+              <select id="price">
+                <option><b>Filter Show Timings</b></option>
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+                <option>Night</option>
+              </select>
+        </div>
+    </nav>
+
+    <div class="bg">
+        <div class="tick">
+            <ul>
+                <li id="list"><h3>PVR ICON:Infiniti,Andheri(W)</h3></li>
+                <div class="tim">
+                    <a href="./book.html"><button class="time"><b>12:00 pm</b></button>
+                    <button class="time"><b>2:15 pm</b></button>
+                    <button class="time"><b>4:45 pm</b></button>
+                    <button class="time"><b>7:00 pm</b></button></a>
+                </div><br>
+
+                <li id="list"><h3>INOX:Inorbit,Malad(W)</h3></li>
+                <div class="tim">
+                    <a href="./book.html"><button href="./book.html" class="time"><b>9:00 am</b></button>
+                    <button class="time"><b>11:15 am</b></button>
+                    <button class="time"><b>1:45 pm</b></button>
+                    <button class="time"><b>3:55 pm</b></button></a>
+                </div><br>
+
+                <li id="list"><h3>PVR ICON:Oberoi,Goregaon(E)</h3></li>
+                <div class="tim">
+                    <a href="./book.html"><button href="./book.html" class="time"><b>1:00 pm</b></button>
+                    <button class="time"><b>3:15 pm</b></button>
+                    <button class="time"><b>5:45 pm</b></button>
+                    <button class="time"><b>9:00 pm</b></button></a>
+                </div><br>
+
+                <li id="list"><h3>IMAX:Infiniti,Malad(W)</h3></li>
+                <div class="tim">
+                    <a href="./book.html"><button href="./book.html" class="time"><b>8:30 am</b></button>
+                    <button class="time"><b>10:15 am</b></button>
+                    <button class="time"><b>1:45 pm</b></button>
+                    <button class="time"><b>5:00 pm</b></button></a>
+                </div><br>
+
+                <li id="list"><h3>PVR:Dynamix,Juhu</h3></li>
+                <div class="tim">
+                    <a href="./book.html"><button href="./book.html" class="time"><b>1:00 pm</b></button>
+                    <button class="time"><b>3:35 pm</b></button>
+                    <button class="time"><b>6:45 pm</b></button>
+                    <button class="time"><b>11:00 pm</b></button></a>
+                </div><br>
+            </ul>
+        </div>
+    
+        <nav class="about" id="about">
+            <h1>About The Movie</h1>
+            <h3>In Mission: Impossible - Dead Reckoning Part One, Ethan Hunt (Tom Cruise) and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the fate of the world at stake, and dark forces from Ethan`s past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than his mission - not even the lives of those he cares about most.</h3>
+        </nav>
+
+        <div class="cast" id="cast">
+            <h2>Cast</h2>
+            <figure>
+                <div class="cimg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/tom-cruise-2384-24-03-2017-17-29-20.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/hayley-atwell-16182-24-03-2017-17-54-40.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vanessa-kirby-1048946-22-07-2019-03-24-47.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/simon-pegg-10342-24-03-2017-12-33-05.jpg">
+                </div>
+                <div class="cname">
+                    <figcaption id="tom"><strong>Tom Cruise </strong><br>as Ethan Hunt</figcaption>
+                    <figcaption id="hay"><strong>Hayley Atwel</strong><br>as Grace</figcaption>
+                    <figcaption id="van"><strong>Vanessa Kirby</strong><br>as White Widow</figcaption>
+                    <figcaption id="sim"><strong>Simon Pegg</strong><br>as Benji Dunn</figcaption>
+                </div>
+                <br>
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zDA3zCs2MzcyYPQST04sLlHIzSwuzszPU8jMLcgHspJyUgHz-Q1F&q=cast+of+mission+impossible+7&rlz=1C1FHFK_enIN965IN965&oq=cast+mi&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyBggAEEUYOTIHCAEQLhiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg8MgYIBxBFGDzSAQkxMDA4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&si=ACFMAn-Kz2zY2vXgc4wUuZLIdfpFQdaV9tm3YvwinMgKMKc8NKqjUoYkBf9D3sGOrM5Tfn92CaQPog4V7xR6LbGf5h4M75kfZ4dOpwJEpV4IXwlB5Ie6C-EjUVSreOuo4wIEFgtoNe85u1hvJd8V5_RlNEzlfpKOWQ%3D%3D&ictx=1&ved=2ahUKEwij2PPL_NiAAxXGS2wGHaBeDVIQw_oBegQIQBAC&clie=1" target="_blank"><sub id="sub">Learn More</sub></a>
+
+            </figure>
+        </div>
+        
+
+        <div class="cast" id="crew">
+            <h2>Crew</h2>
+            <figure>
+                <div class="cimg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/tom-cruise-2384-24-03-2017-17-29-20.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/christopher-mcquarrie-10450-24-03-2017-12-37-58.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/bruce-geller-1048046-20-07-2018-12-45-52.jpg">
+                    <img src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/dana-goldberg-iein013575-24-03-2017-15-30-14.jpg">
+                </div>
+                <div class="cname">
+                    <figcaption id="tom"><strong>Tom Cruise </strong><br>Producer</figcaption>
+                    <figcaption id="hay"><strong>Christopher McQuarrie</strong><br>Director</figcaption>
+                    <figcaption id="van"><strong>Bruce Geller</strong><br>Writer</figcaption>
+                    <figcaption id="sim"><strong>Dana Goldberg</strong><br>Executive Producer</figcaption>
+                </div>
+                <br>
+                <a href="https://www.google.com/search?q=crew+of+mission+impossible+7&sca_esv=556449418&rlz=1C1FHFK_enIN965IN965&sxsrf=AB5stBg3ZGWKZ6bwHF8aa5rq5RzVYrbvuQ%3A1691906964543&ei=lHPYZKDZINDkseMPlMCmsAY&ved=0ahUKEwig8_TM_NiAAxVQcmwGHRSgCWYQ4dUDCBA&uact=5&oq=crew+of+mission+impossible+7&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGNyZXcgb2YgbWlzc2lvbiBpbXBvc3NpYmxlIDcyBRAAGIAEMggQABiKBRiGAzIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGAzIIEAAYigUYhgNIhxdQmwVY7BJwAXgBkAEAmAGcAaAB1waqAQMwLja4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIKEAAYigUYsAMYQ8ICDhAAGOQCGNYEGLAD2AEBwgIQEC4YigUYyAMYsAMYQ9gBAsICBhAAGAcYHsICBxAAGA0YgATCAggQABgIGAcYHuIDBBgAIEGIBgGQBhO6BgYIARABGAm6BgYIAhABGAg&sclient=gws-wiz-serp&clie=1" target="_blank"><sub id="sub">Learn More</sub></a>
+
+            </figure>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    
+    <footer>
+        <div class="all">
+        <div class="col">
+            <h3>About</h3><br>
+            <li>About Us</li><br>
+            <li>Privacy Policy</li><br>
+            <li>Terms and Conditions</li>
+        </div>
+
+        <div class="col">
+            <h3>My Account</h3><br>
+            <li><a href="./user.html">Sign In</a></li><br>
+            <li>Previously Booked Events</li><br>
+            <li href="www.google.com">Help</li>
+        </div>
+
+        <div class="col">
+            <h3>Install App</h3><br>
+            <li>Playstore Link</li><br>
+            <li>AppStore Link</li><br>
+            <li><a href="./home.html">Home</a></li>
+        </div>
+        </div>
+        <br><br>
+        <h2>FOLLOW US</h2>
+        <h4>
+            <a href="https://www.google.com/search?q=instagram&rlz=1C1FHFK_enIN965IN965&oq=insta&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyDQgBEAAYgwEYsQMYgAQyBggCEEUYQDIGCAMQRRg5MgYIBBBFGD0yBAgFEAUyBggGEEUYPTIGCAcQRRg80gEIMjUzOWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&q=twitter&rlz=1C1FHFK_enIN965IN965&oq=tw&gs_lcrp=EgZjaHJvbWUqFQgBEC4YQxiDARjHARixAxjRAxiKBTIGCAAQRRg5MhUIARAuGEMYgwEYxwEYsQMY0QMYigUyDwgCEAAYQxiDARixAxiKBTIJCAMQABhDGIoFMgkIBBAuGEMYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMzI5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TewzEouK1ZgNGB0YPBir8wvLSlNSgUAUQAG7g&q=youtube&rlz=1C1FHFK_enIN965IN965&oq=yo&gs_lcrp=EgZjaHJvbWUqFQgCEC4YQxiDARjHARixAxjRAxiKBTIGCAAQRRg8MgYIARBFGDkyFQgCEC4YQxiDARjHARixAxjRAxiKBTIMCAMQLhhDGLEDGIoFMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyMTk4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.google.com/search?q=linkedin&rlz=1C1FHFK_enIN965IN965&oq=link&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIHCAQQABiABDIECAUQBTIGCAYQRRg8MgYIBxBFGDzSAQgyMzkyajBqOagCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+        </h4>
+        <br>
+        <p>&copy; TicketBazaar</p>
+        
+    </footer>
+</body>
+</html>
